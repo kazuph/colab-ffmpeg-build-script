@@ -784,6 +784,7 @@ if build "libpng" "1.6.37"; then
   build_done "libpng" "1.6.37"
 fi
 
+echo skip webp build
 ## does not compile on monterey -> _PrintGifError
 # if [[ "$OSTYPE" != "darwin"* ]]; then
 #   if build "libwebp" "1.2.1"; then
