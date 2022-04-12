@@ -36,5 +36,5 @@ cd $TARGET
 echo "Now we download and execute the build script"
 echo ""
 
-bash <(curl -s https://raw.githubusercontent.com/kazuph/ffmpeg-build-script/master/build-ffmpeg) --build --enable-gpl-and-non-free
+bash <(curl -s https://raw.githubusercontent.com/kazuph/colab-ffmpeg-build-script/master/build-ffmpeg) --build --enable-gpl-and-non-free
 
